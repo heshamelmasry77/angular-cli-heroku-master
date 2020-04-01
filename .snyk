@@ -1,0 +1,115 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@angular/cli > silent-error > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > heimdalljs-logger > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > portfinder > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > stylus > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > ember-cli-normalize-entity-name > silent-error > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > portfinder > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > compression > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > serve-index > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > sockjs-client > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > spdy > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > spdy > spdy-transport > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar-pack > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > express > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > express > finalhandler > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > express > send > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > express > serve-static > send > debug':
+        patched: '2020-04-01T23:56:08.480Z'
+  'npm:extend:20180424':
+    - '@angular/cli > less > request > extend':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > request > extend':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > node-gyp > request > extend':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2020-04-01T23:56:08.480Z'
+  'npm:hoek:20180212':
+    - '@angular/cli > node-sass > request > hawk > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > request > hawk > boom > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > request > hawk > sntp > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > request > hawk > cryptiles > boom > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > boom > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > sntp > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2020-04-01T23:56:08.480Z'
+  'npm:mime:20170907':
+    - '@angular/cli > webpack-dev-server > express > send > mime':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > express > serve-static > send > mime':
+        patched: '2020-04-01T23:56:08.480Z'
+  'npm:stringstream:20180511':
+    - '@angular/cli > less > request > stringstream':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > request > stringstream':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > node-gyp > request > stringstream':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2020-04-01T23:56:08.480Z'
+  'npm:tough-cookie:20170905':
+    - '@angular/cli > less > request > tough-cookie':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > request > tough-cookie':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > node-sass > node-gyp > request > tough-cookie':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > tough-cookie':
+        patched: '2020-04-01T23:56:08.480Z'
+    - '@angular/cli > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie':
+        patched: '2020-04-01T23:56:08.480Z'
